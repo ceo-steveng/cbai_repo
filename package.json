@@ -2,6 +2,10 @@
   "name": "cbai-nft",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -33,6 +37,7 @@
     "truffle": "^5.5.12",
     "web3": "^1.7.3"
   },
+  "homepage": "https://coachstevengarcia.github.io/cbai_dapp",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-typescript": "^7.16.7",
